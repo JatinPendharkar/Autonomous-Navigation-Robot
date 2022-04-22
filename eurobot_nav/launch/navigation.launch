@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+
+    <include file="$(find eurobot_nav)/launch/map_server.launch" />
+    <!--include file="$(find eurobot_nav)/launch/amcl.launch" /-->
+    <node pkg="tf" name="map_odom_tf" type="static_transform_publisher" args="0 0 0 0 0 0 /map /odom 30" />
+    <include file="$(find eurobot_nav)/launch/move_base.launch" />
+    <include file="$(find eurobot_nav)/launch/rviz.launch" />
+    <include file="$(find eurobot_nav)/launch/laser_filter.launch" />
+
+</launch>

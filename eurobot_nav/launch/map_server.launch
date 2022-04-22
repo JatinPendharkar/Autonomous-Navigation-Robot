@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+
+<launch>
+    <node pkg="map_server" name="map_server" type="map_server" args="$(find eurobot_nav)/maps/map.yaml"/>
+</launch>

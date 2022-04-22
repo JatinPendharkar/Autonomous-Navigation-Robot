@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<launch>
+	<node pkg="rviz" name="rviz" type="rviz" args="-d $(find eurobot_nav)/rviz/navigation.rviz" />
+</launch>
