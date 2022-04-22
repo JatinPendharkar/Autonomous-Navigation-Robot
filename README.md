@@ -1,5 +1,6 @@
 # Autonomous-Navigation-Robot
-Master Thesis
+SRH Hochschule Heidelberg 2022
+Master Thesis 
 
 ![image](https://user-images.githubusercontent.com/86410054/164705961-ee05591b-7916-4578-9851-e225d23faaef.png)
 
@@ -16,6 +17,7 @@ Map_server for Saving the MAP
 AMCL/iris_lama for Localization
 Move_base for Navigation.
 THe MAP on which the Robot was tobe Operated was
+
 ![image](https://user-images.githubusercontent.com/86410054/164705807-4b06b9ad-2a64-41be-ba88-9b1aa8968c93.png)
 
 
